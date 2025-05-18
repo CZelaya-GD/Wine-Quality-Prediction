@@ -15,18 +15,15 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-text
 
 2. Run the project:
 python main.py
 
-text
 
 3. Or build and run with Docker:
 docker build -t wine-quality .
 docker run --rm wine-quality
 
-text
 
 ## File Structure
 
